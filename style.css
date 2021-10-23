@@ -59,16 +59,17 @@ li:hover{
     background-color: white;
     color: red;
     border: 2px solid red;
+    cursor: pointer;
 }
 
-.nones{
+.modal{
     position: absolute;
     left: 700px;
     bottom: 300px;
     display: none;
 }
 
-.none{display: flex;}
+.modal-ch{display: flex;}
 
 .modalWindow{
     /* position: absolute; */
@@ -92,6 +93,7 @@ h2{
     width: 250px;
     height: 175px;
     margin-bottom: 13px;
+    resize: none;
 }
 .modalWindow__btn{
     width: 170px;
@@ -99,6 +101,7 @@ h2{
     background-color: white;
     color: red;
     border: 2px solid red;
+    cursor: pointer;
 }
 form{
     display: flex;
@@ -107,13 +110,14 @@ form{
     align-items: center;
 }
 
-.close{
+.modal-close {
     border: 3px solid red;
     width: 20px;
     height: 20px;
     text-align: center;
     background-color: white;
     padding: 2px;
+    cursor: pointer;
 }
 
 .overlay{

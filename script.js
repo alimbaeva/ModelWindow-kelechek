@@ -49,26 +49,26 @@ function mouLeave2() {
     stil.syyles();
 }
 function mouseOut3() {
-    let stil = new Mouse('.close', 'red', '');
+    let stil = new Mouse('.modal-close ', 'red', '');
     stil.syyles();
 }
 
 function mouLeave3() {
-    let stil = new Mouse('.close', 'white', '');
+    let stil = new Mouse('.modal-close ', 'white', '');
     stil.syyles();
 }
 
 function funClick() {
     let overlayn = document.querySelector('.overlay');
     overlayn.style.display = 'block';
-    let nones = document.querySelector('.nones');
+    let nones = document.querySelector('.modal');
     nones.style.display = 'block';
 
 }
 function funClose() {
     let overlayn = document.querySelector('.overlay');
     overlayn.style.display = 'none';
-    let nones = document.querySelector('.nones');
+    let nones = document.querySelector('.modal');
     nones.style.display = 'none';
 }
 
